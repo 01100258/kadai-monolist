@@ -22,5 +22,7 @@ class WelcomeController extends Controller
         return view('welcome', [
             'items' => $items,
         ]);
+        
+        
     }
 }
